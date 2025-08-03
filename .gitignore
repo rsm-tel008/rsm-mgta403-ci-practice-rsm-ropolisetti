@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+__pycache__/
+.env
+.venv/
+*.pyc
+*.pyo
+push-to-org.sh

@@ -1,0 +1,12 @@
+name: GitHub Extension - Practice (CI)
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: self-hosted
+    container:
+      image: vnijs/rsm-msba-k8s:2.0.0
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Python script
+        run: python test/ci-test-practice-script.py
