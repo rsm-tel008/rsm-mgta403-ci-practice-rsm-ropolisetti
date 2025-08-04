@@ -16,4 +16,4 @@ print(x + y)
 
 ##### Step 1 #####
 # Un-comment the line below before you push to GitHub the first time
-# print(z)
+print(z)
