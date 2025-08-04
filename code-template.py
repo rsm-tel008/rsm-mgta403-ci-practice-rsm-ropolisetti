@@ -12,8 +12,8 @@ print(x + y)
 
 ##### Step 2 #####
 # Before pushing to GitHub the second time, define z = x + y by uncommenting the line below
-# z = x + y
+z = x + y
 
 ##### Step 1 #####
 # Un-comment the line below before you push to GitHub the first time
-# print(z)
+print(z)
